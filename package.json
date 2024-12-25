@@ -1,0 +1,15 @@
+{
+  "name": "renovate-config",
+  "version": "0.0.0",
+  "description": "Renovate config",
+  "main": "index.js",
+  "scripts": {
+    "test": "renovate-config-validator ./default.json"
+  },
+  "keywords": [],
+  "author": "Brendan Dash <me@aiwan.run> (https://aiwan.run)",
+  "license": "MIT",
+  "devDependencies": {
+    "renovate": "^39.82.7"
+  }
+}
