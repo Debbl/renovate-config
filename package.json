@@ -4,7 +4,7 @@
   "description": "Renovate config",
   "main": "index.js",
   "scripts": {
-    "test": "renovate-config-validator ./default.json"
+    "test": "renovate-config-validator ./default.json ./starter-template.json --strict"
   },
   "keywords": [],
   "author": "Brendan Dash <me@aiwan.run> (https://aiwan.run)",
