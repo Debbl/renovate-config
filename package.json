@@ -1,15 +1,19 @@
 {
   "name": "renovate-config",
+  "type": "module",
   "version": "0.0.0",
   "description": "Renovate config",
-  "main": "index.js",
-  "scripts": {
-    "test": "renovate-config-validator ./default.json ./starter-template.json --strict"
-  },
-  "keywords": [],
   "author": "Brendan Dash <me@aiwan.run> (https://aiwan.run)",
   "license": "MIT",
+  "keywords": [],
+  "main": "index.js",
+  "scripts": {
+    "test": "renovate-config-validator ./default.json ./starter-template.json --strict",
+    "lint": "eslint ."
+  },
   "devDependencies": {
-    "renovate": "^39.82.7"
+    "@debbl/eslint-config": "^3.8.6",
+    "eslint": "^9.17.0",
+    "renovate": "^39.86.0"
   }
 }

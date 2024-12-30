@@ -6,9 +6,12 @@
     {
       "matchPackageNames": ["*"],
       "groupName": "all-dependencies",
+      "semanticCommitType": "chore",
       "automerge": true,
+      "platformAutomerge": true,
       "automergeType": "pr-comment",
-      "automergeComment": "bors: r+"
+      "automergeComment": "bors: r+",
+      "automergeStrategy": "squash"
     }
   ]
 }
