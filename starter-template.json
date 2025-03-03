@@ -10,7 +10,6 @@
       "automerge": true,
       "platformAutomerge": true,
       "automergeType": "pr-comment",
-      "automergeComment": "bors: r+",
       "automergeStrategy": "squash"
     }
   ]
