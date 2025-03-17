@@ -9,11 +9,11 @@
   "main": "index.js",
   "scripts": {
     "test": "renovate-config-validator ./default.json ./starter-template.json --strict",
-    "lint": "eslint ."
+    "lint": "eslint"
   },
   "devDependencies": {
-    "@debbl/eslint-config": "^3.8.6",
-    "eslint": "^9.17.0",
-    "renovate": "^39.86.0"
+    "@debbl/eslint-config": "^3.10.1",
+    "eslint": "^9.22.0",
+    "renovate": "^39.206.0"
   }
 }

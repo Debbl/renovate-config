@@ -1,7 +1,5 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": ["config:recommended", "schedule:earlyMondays"],
-  "labels": ["dependencies"],
-  "semanticCommitType": "chore",
-  "semanticCommitScope": "deps"
+  "labels": ["dependencies"]
 }

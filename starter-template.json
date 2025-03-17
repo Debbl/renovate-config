@@ -2,12 +2,12 @@
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": ["config:recommended", "schedule:earlyMondays"],
   "labels": ["dependencies"],
+  "automerge": true,
   "packageRules": [
     {
       "matchPackageNames": ["*"],
       "groupName": "all-dependencies",
       "semanticCommitType": "chore",
-      "automerge": true,
       "platformAutomerge": true,
       "automergeType": "pr-comment",
       "automergeStrategy": "squash"
